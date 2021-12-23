@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SudokuBoard/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SudokuBoard from './components/SudokuBoard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SudokuBoard
   }
 }
 </script>
